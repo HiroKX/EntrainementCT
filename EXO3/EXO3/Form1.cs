@@ -166,7 +166,7 @@ namespace EXO3
             Dictionary<char, int> occur = new Dictionary<char, int>();
             List<char> dejaUsed = new List<char>();
 
-            foreach(char t in text)e
+            foreach(char t in text)
             {
                 if(!occur.ContainsKey(t))
                     occur.Add(t, getOccurInString(richTextBox2.Text, t));
